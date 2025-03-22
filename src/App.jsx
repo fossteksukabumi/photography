@@ -10,10 +10,10 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/album/:id" element={<AlbumPage />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="photography-puce-eta.vercel.app/album/:id" element={<AlbumPage />} />
+        <Route path="photography-puce-eta.vercel.app/portfolio" element={<Portfolio />} />
+        <Route path="photography-puce-eta.vercel.app/contact" element={<Contact />} />
+        <Route path="photography-puce-eta.vercel.app/about" element={<AboutPage />} />
       </Routes>
     </Router>
   );
