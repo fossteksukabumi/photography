@@ -36,7 +36,7 @@ export const InfoContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 4rem;
-  background-color: rgb(241, 227, 196);
+  background-color: rgb(247, 238, 220);
   font-family: 'Poppins', sans-serif;
   overflow: auto;
 
